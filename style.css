@@ -9,10 +9,7 @@ body{
     background-color: #6a5293;
    
 }
-.main{
-    width: 100vw;
-    height: 100vh;
-}
+
 .card{
     width: 90%;
     max-width: 470px;
@@ -121,4 +118,20 @@ nav p{
     height: 100%;
     font-weight: 800;
    
+}
+@media(max-width:500px){
+  
+    .search input{
+        height: 40px;
+        width: 30px;
+        font-size: 9px;
+    }
+    .search button{
+        width: 30px;
+        height: 33px;
+    }
+    
+    nav p {
+        font-size: 15px;
+    }
 }
